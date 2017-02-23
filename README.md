@@ -42,6 +42,12 @@ console.log(${1:obj})
 console.warn(${1:obj})
 ```
 
+### [ca] console.assert
+
+```javascript
+console.assert(${1:cond}, ${2:mess})
+```
+
 ### [de] debugger
 
 ```javascript

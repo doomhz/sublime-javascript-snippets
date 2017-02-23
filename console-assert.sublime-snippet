@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+console.assert(${1:cond}, ${2:mess})
+]]></content>
+	<tabTrigger>ca</tabTrigger>
+	<scope>source.js, source.jsx, source.ts</scope>
+	<description>console.assert</description>
+</snippet>
