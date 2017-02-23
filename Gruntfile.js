@@ -22,10 +22,10 @@ module.exports = function(grunt) {
 				}
 			}
 		}
-	});
+	})
 
-	grunt.loadNpmTasks('grunt-bump');
-	grunt.loadNpmTasks('grunt-lintspaces');
+	grunt.loadNpmTasks('grunt-bump')
+	grunt.loadNpmTasks('grunt-lintspaces')
 
-	grunt.registerTask('default', ['lintspaces']);
-};
+	grunt.registerTask('default', ['lintspaces'])
+}

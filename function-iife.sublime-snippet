@@ -2,7 +2,7 @@
 	<content><![CDATA[
 (function(${1:window}, ${2:document}) {
 	${3}
-})(${1:window}, ${2:document});
+})(${1:window}, ${2:document})
 ]]></content>
 	<tabTrigger>iife</tabTrigger>
 	<scope>source.js, source.jsx, source.ts</scope>

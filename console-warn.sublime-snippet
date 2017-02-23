@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-console.warn(${1:obj});
+console.warn(${1:obj})
 ]]></content>
 	<tabTrigger>cw</tabTrigger>
 	<scope>source.js, source.jsx, source.ts</scope>

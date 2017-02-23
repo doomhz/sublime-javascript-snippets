@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-JSON.stringify(${1:obj});
+JSON.stringify(${1:obj})
 ]]></content>
 	<tabTrigger>js</tabTrigger>
 	<scope>source.js, source.jsx, source.ts</scope>
