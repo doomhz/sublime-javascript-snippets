@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[import * as $1 from '$2']]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>imfa</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>import * as foo from 'bar'</description>
+</snippet>
