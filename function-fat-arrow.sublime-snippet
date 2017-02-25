@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[()=> {}]]></content>
+    <content><![CDATA[() => {}]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>fata</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->

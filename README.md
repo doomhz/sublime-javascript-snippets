@@ -191,7 +191,7 @@ for (${1:prop} in ${2:obj}) {
 ### [fn] function
 
 ```javascript
-function ${1:methodName}(${2:arguments}) {
+function ${1:methodName} (${2:arguments}) {
 	${3}
 }
 ```
@@ -199,7 +199,7 @@ function ${1:methodName}(${2:arguments}) {
 ### [afn] anonymous function
 
 ```javascript
-function(${1:arguments}) {
+function (${1:arguments}) {
 	${2}
 }
 ```
@@ -213,13 +213,13 @@ async function $1($2) {$3}
 ### [fata] fat arrow function
 
 ```javascript
-()=> {}
+() => {}
 ```
 
 ### [pr] prototype
 
 ```javascript
-${1:ClassName}.prototype.${2:methodName} = function(${3:arguments}) {
+${1:ClassName}.prototype.${2:methodName} = function (${3:arguments}) {
 	${4}
 }
 ```
@@ -227,7 +227,7 @@ ${1:ClassName}.prototype.${2:methodName} = function(${3:arguments}) {
 ### [iife] immediately-invoked function expression
 
 ```javascript
-(function(${1:window}, ${2:document}) {
+;(function (${1:window}, ${2:document}) {
 	${1}
 })(${1:window}, ${2:document})
 ```
@@ -286,24 +286,6 @@ setTimeout(function() {
 
 ## NodeJS
 
-### [ase] assert.equal
-
-```javascript
-assert.equal(${1:actual}, ${2:expected})
-```
-
-### [asd] assert.deepEqual
-
-```javascript
-assert.deepEqual(${1:actual}, ${2:expected})
-```
-
-### [asn] assert.notEqual
-
-```javascript
-assert.notEqual(${1:actual}, ${2:expected})
-```
-
 ### [me] module.exports
 
 ```javascript
@@ -326,14 +308,14 @@ require('${1:module}')
 ### [desc] describe
 
 ```javascript
-describe('${1:description}', ()=> {
+describe('${1:description}', () => {
 	${2}
 })
 ```
 ### [ita] it asynchronous
 
 ```javascript
-it('${1:description}', async ()=> {
+it('${1:description}', async () => {
 	${2}
 })
 ```
@@ -341,7 +323,7 @@ it('${1:description}', async ()=> {
 ### [itad] it asynchronous
 
 ```javascript
-it('${1:description}', (done)=> {
+it('${1:description}', (done) => {
 	${2}
 })
 ```
@@ -349,7 +331,7 @@ it('${1:description}', (done)=> {
 ### [its] it synchronous
 
 ```javascript
-it('${1:description}', ()=> {
+it('${1:description}', () => {
 	${2}
 })
 ```

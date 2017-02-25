@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-${1:myArray}.forEach(function(${2:elem}) {
+${1:myArray}.forEach(function (${2:elem}) {
 	${3}
 })
 ]]></content>

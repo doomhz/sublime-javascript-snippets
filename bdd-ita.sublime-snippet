@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-it('${1:description}', async ()=> {
+it('${1:description}', async () => {
 	${2}
 })
 ]]></content>
